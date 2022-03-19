@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+:root {
+  --color-dark-blue: #152a42;
+  --color-light-blue: #7095BF;
+  --color-orange: #e25e14;
+  --color-yellow: #FFCC44;
+  --color-green: #EBAD74;
+  --color-beige: #FFF1D8;
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --padding-sm: 15px;
+  --padding-md: 25px;
+  --padding-lg: 40px;
+  --padding-xl: 50px;
+
+  --font-size-xs: 10px;
+  --font-size-sm: 12px;
+  --font-size-md: 14px;
+  --font-size-rg: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+}
+
+body {
+  min-height: 100%;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+input, select, option, optgroup, textarea, button,
+pre, code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+ol, ul {
+  list-style: none;
+}
