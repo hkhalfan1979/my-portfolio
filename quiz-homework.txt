@@ -1,0 +1,26 @@
+timer
+question
+right and wrong
+possible answers
+Score for the user (bonus)
+
+activities
+
+Add form
+Add 2 buttons to the page
+<button id="attack-button" type="submit" value="11">Attack</button>
+<button id="defend-button" type="submit" value="2">defend</button>
+
+
+add event listeners for both buttons
+
+var buttons = document.querySelectorAll("button");
+
+for (var i=0; i < buttons.lentgh; i++;) {
+     console.log(buttons[i]);
+     buttons[i].addEventListener("click", function(event) {
+     event.prevendtDefault();
+
+
+     }
+}
