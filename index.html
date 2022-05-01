@@ -16,28 +16,34 @@
 <body>
   <header> <!-- START Header -->
     <div class="container">
-      <div class="logo">
-        <img src="./assets/images/hk-logo.png" alt="Hasnain Khalfan" />
-      </div>
-      <div class="main-menu">
-          <nav>
-              <ul>
-                <li><a href="#about-me">About</a></li>                
-                <li><a href="#my-portfolio">my work</a></li>              
-                <li><a href="#contactme">Contact</a></li>
-              </ul>
-            </nav>
-      </div>    
+      <nav class="navbar" aria-label="First navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="./assets/images/hk-logo.png" alt="Hasnain Khalfan"></a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+      
+                <div class="navbar-collapse collapse" id="navbarsExample01" style="">
+                <ul class="navbar-nav me-auto mb-2">
+                      <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#about-me">About</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#my-portfolio">My work</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#contactme">Contact</a>
+                      </li>  
+                      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>                  
+                </ul>              
+                </div>
+            </div>
+      </nav>
     </div>
-  </header> <!-- END Header -->
+  </header>
 
   <main>
-    <!-- START Banner section -->
-    <section id="portfoio-hero">
-      <div class="container">
-          <h1>Hasnain Khalfan.</h1>
-      </div>
-    </section>
+    
      <!-- START about me section -->
     <section id="about-me">
       <div class="container">
@@ -50,78 +56,86 @@
     <!-- START portfolio section -->
     <section id="my-portfolio">
       <h3 class="text-center">My projects</h3>
-        <div class="flexbox">      
-          <div class="item-project">
-            <a class="project-link" target="_blank" href="https://github.com/hkhalfan1979/seo-marketing">
-              <div class="item-project-container">
-                <div class="item-project-bg-image" id="item-project-bg-image-01">
-                  <img class="show-on-mobile" src="./assets/images/placeholder-500X200.jpg" alt="Code Defactor" />
-                </div>
-                <div class="item-project-content">
-                  <h4>Code defactor</h4>
-                  <p>This was our first project where we had to showcase our newly learnt HTML and CSS skills.</p>
-                </div>         
-              </div>  
-            </a>        
-          </div>
-          <div class="item-project">
-            <a class="project-link" target="_blank" href="https://github.com/hkhalfan1979/password-generator">
-              <div class="item-project-container">
-                <div class="item-project-bg-image" id="item-project-bg-image-02">
-                  <img class="show-on-mobile" src="./assets/images/tulips-g86e185441_1920.jpg" alt="Password Generator" />
-                </div>
-                <div class="item-project-content">
-                  <h4>Password Generator</h4>
-                  <p>This was our first project where we had to showcase our newly learnt HTML and CSS skills.</p>
-                </div>         
-              </div>   
-            </a>       
-          </div>
-          <div class="item-project">
+      <div class="flexbox">      
+        <div class="item-project">
+          <a class="project-link" target="_blank" href="https://github.com/hkhalfan1979/seo-marketing">
             <div class="item-project-container">
-              <div class="item-project-bg-image" id="item-project-bg-image-03">
-                <img class="show-on-mobile" src="./assets/images/field-gb93fa1cce_1920.jpg" alt="project 3" />
+              <div class="item-project-bg-image" id="item-project-bg-image-01">
+                <img class="show-on-mobile" src="./assets/images/placeholder-500X200.jpg" alt="Code Defactor">
               </div>
               <div class="item-project-content">
-                <h4>Coming soon!</h4>
-                <p>project excerpt - In this section you should mention a quick highlight on what the prject is all about</p>
+                <h4>Code defactor</h4>
+                <p>This was our first project where we had to showcase our newly learnt HTML and CSS skills.</p>
               </div>         
-            </div>          
-          </div>
-          <div class="item-project">
-            <div class="item-project-container">
-              <div class="item-project-bg-image" id="item-project-bg-image-04">
-                <img class="show-on-mobile" src="./assets/images/sunset-ge7a767c85_1920.jpg" alt="project 4" />
-              </div>
-              <div class="item-project-content">
-                <h4>Coming soon!</h4>
-                <p>project excerpt - In this section you should mention a quick highlight on what the prject is all about</p>
-              </div>         
-            </div>          
-          </div>
-          <div class="item-project">
-            <div class="item-project-container">
-              <div class="item-project-bg-image" id="item-project-bg-image-05">
-                <img class="show-on-mobile" src="./assets/images/sea-ge95f3fb9d_1280.jpg" alt="project 5" />
-              </div>
-              <div class="item-project-content">
-                <h4>Coming soon!</h4>
-                <p>project excerpt - In this section you should mention a quick highlight on what the prject is all about</p>
-              </div>         
-            </div>          
-          </div>
-          <div class="item-project">
-            <div class="item-project-container">
-              <div class="item-project-bg-image" id="item-project-bg-image-06">
-                <img class="show-on-mobile" src="./assets/images/river-g5a6158d5e_1280.jpg" alt="project 6" />
-              </div>
-              <div class="item-project-content">
-                <h4>Coming soon!</h4>
-                <p>project excerpt - In this section you should mention a quick highlight on what the prject is all about</p>
-              </div>         
-            </div>          
-          </div>      
+            </div>  
+          </a>        
         </div>
+        <div class="item-project">
+          <a class="project-link" target="_blank" href="https://hkhalfan1979.github.io/password-generator/">
+            <div class="item-project-container">
+              <div class="item-project-bg-image" id="item-project-bg-image-02">
+                <img class="show-on-mobile" src="./assets/images/tulips-g86e185441_1920.jpg" alt="Password Generator">
+              </div>
+              <div class="item-project-content">
+                <h4>Password Generator</h4>
+                <p>This was our first project where we had to showcase our newly learnt HTML and CSS skills.</p>
+              </div>         
+            </div>   
+          </a>       
+        </div>
+        <div class="item-project">
+             <a class="project-link" target="_blank" href="https://hkhalfan1979.github.io/code-quiz/"></a>
+                  <div class="item-project-container">
+                  <div class="item-project-bg-image" id="item-project-bg-image-03">
+                       <img class="show-on-mobile" src="./assets/images/field-gb93fa1cce_1920.jpg" alt="project 3">
+                  </div>
+                  <div class="item-project-content">
+                       <h4>Code Quiz</h4>
+                       <p>Coding questions are given to a user with a timer. </p>
+                  </div>         
+                  </div>         
+             
+        </div>
+        <div class="item-project">
+             <a class="project-link" target="_blank" href="https://hkhalfan1979.github.io/day-schedular/">
+               <div class="item-project-container">
+                 <div class="item-project-bg-image" id="item-project-bg-image-02">
+                   <img class="show-on-mobile" src="./assets/images/tulips-g86e185441_1920.jpg" alt="Password Generator">
+                 </div>
+                 <div class="item-project-content">
+                   <h4>Day Schedular</h4>
+                   <p>A Work day calendar of 9 hours block. A user can enter their work day schedule details within a text area and save it to local storage by clicking the save button related to each hour block.</p>
+                 </div>         
+               </div>   
+             </a>       
+        </div>
+        <div class="item-project">
+             <a class="project-link" target="_blank" href="https://hkhalfan1979.github.io/weather-dashboard/"></a>
+                  <div class="item-project-container">
+                  <div class="item-project-bg-image" id="item-project-bg-image-03">
+                       <img class="show-on-mobile" src="./assets/images/field-gb93fa1cce_1920.jpg" alt="project 3">
+                  </div>
+                  <div class="item-project-content">
+                       <h4>weather dashboard</h4>
+                       <p>This application uses Ajax calls to a OpenWeather API to display current weather and 5-day forecast for cities around the world that are searchable by user.</p>
+                  </div>         
+                  </div>         
+             
+        </div>
+        <div class="item-project">
+             <a class="project-link" target="_blank" href="https://hkhalfan1979.github.io/entertainment-hub/"></a>
+                  <div class="item-project-container">
+                  <div class="item-project-bg-image" id="item-project-bg-image-03">
+                       <img class="show-on-mobile" src="./assets/images/field-gb93fa1cce_1920.jpg" alt="project 3">
+                  </div>
+                  <div class="item-project-content">
+                       <h4>Entertainment Hub</h4>
+                       <p>Group project which uses movie API to show and search movies and linking each movie with soundtrack using spotify API.</p>
+                  </div>         
+                  </div>         
+             
+        </div>     
+      </div>
     </section>
     <!-- START contact me section -->
     <section class="contact-form" id="contactme">
