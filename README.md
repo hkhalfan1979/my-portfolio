@@ -8,5 +8,5 @@ https://hkhalfan1979.github.io/my-portfolio/
 
 # Screenshot
 
-![Random password generator.](./assets/images/my-prtfolio.png)
+![Random password generator.](./assets/images/Hasnain-khalfan-portfolio-screengrab.png)
 
