@@ -75,9 +75,10 @@ main, section, footer {
 header {
     float: left;
     width: 100%;
-    background-color: var(--color-dark-blue);
     color: #fff;
     padding: 20px 0;
+    background: rgb(83,44,134);
+    background: linear-gradient(90deg, rgba(83,44,134,1) 0%, rgba(83,44,134,1) 35%, rgba(189,93,90,1) 100%);
 }
 
 header .logo, header .main-menu {
@@ -129,19 +130,21 @@ nav {}
 
 #about-me {
     padding: 40px 0 60px;
-    background-color: var(--color-green);
+    background: rgb(83,44,134);
+    background: linear-gradient(90deg, rgba(83,44,134,1) 0%, rgba(83,44,134,1) 35%, rgba(189,93,90,1) 100%);
 }
 #about-me h2::before {
     position: relative;
     content: url(../.././assets/images/my-avatar.jpg);
     display: block;
     height: 100px;
+    margin-bottom: 25px;
 }
 #about-me #content-container {
     max-width: 80%;
 }
-#about-me h3 {
-
+#about-me h2, #about-me p {
+    color: var(--color-white);
 }
 #about-me p {
     font-size: var(--font-size-xl);
@@ -237,16 +240,39 @@ nav {}
 .item-project-content {
     padding: 20px 50px 40px;
 }
-
+.project-links a {
+    position: relative;
+    top:2px;
+    font-size: 24px;
+    margin: 0 10px;
+}
 /**** Contact area ****/
+.connect-item {
+    margin-bottom: 25px;
+}
+
+.connect-item a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 20px;
+}
+.connect-item a:hover {
+    color: var(--color-green);
+}
 
 .contact-form {
     padding: 60px 0;
-    background-color:var(--color-beige);
+    background: linear-gradient(90deg, rgba(83,44,134,1) 0%, rgba(83,44,134,1) 35%, rgba(189,93,90,1) 100%);
+    color: var(--color-white);
+}
+.contact-form h3, .contact-form h4 {
+    color: var(--color-white);
+    margin-bottom: 25px;
 }
 
 form {
     max-width: 90%;
+    margin-top: 50px;
 }
 .form-container {
     display: flex;
@@ -264,13 +290,13 @@ form {
 form label {
     display: block;
     font-size: var(--font-size-xl);
-    color: var(--color-dark-blue);
+    color: var(--color-white);
 }
 form input, form textarea {
     display: block;
     font-size: var(--font-size-md);
-    color: var(--color-dark-blue);
-    border: 2px solid var(--color-dark-blue);
+    color: var(--color-white);
+    border: 2px solid var(--color-green);
     width: 100%;
     padding: 10px 10px;
     max-width: 90%;
@@ -287,9 +313,9 @@ form input:placeholder-shown {
     border-color:(--color-green);
 }
 form input[type=submit] {
-    background-color: var(--color-dark-blue);
+    background-color: var(--color-beige);
     border: 2px solid var(--color-light-blue);
-    color: var(--color-white);
+    color: var(--color-dark-blue);
     cursor: pointer;
     max-width: 250px;
 }
@@ -297,7 +323,7 @@ form input[type=submit] {
 /**** Footer ****/
 
 footer {
-    background: var(--color-green);
+    background: var(--color-light-blue);
     color: var(--color-dark-blue);
     padding: 30px 0;
 }
@@ -330,11 +356,11 @@ ul#social-links li {
 
 ul#social-links li i {
     font-size: 30px;
-    color: var(--color-dark-blue);
+    color: var(--color-white);
 }
 ul#social-links li i:hover {
-    color: var( --color-beige);
-}
+    color: var( --color-green);
+}`
 
 /***** media queries *****/
 
