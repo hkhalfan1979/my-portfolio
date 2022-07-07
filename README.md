@@ -20,5 +20,7 @@ https://hkhalfan1979.github.io/my-portfolio/
 https://www.linkedin.com/in/hasnain-khalfan-39643a7/
 
 # Screenshot
-![Random password generator.](./assets/images/Hasnain-khalfan-portfolio-screengrab.png)
+![Portfolio Screenshot .](./assets/images/portfolio-ss-v2.png)
+
+![Portfolio Screenshot .](./assets/images/portfolio-ss-v2-b.png)
 
